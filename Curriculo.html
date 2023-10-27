@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang=" pt-BR">
+
+<head>
+    <title>Meu currículo</title>
+</head>
+
+<body>
+    <h4>
+        <p> const currículo = {</p>
+        <p> Contato:[</p>
+        <p> WP:0000-0000,</p>
+        <p> Linkedin:'http://Mylinkedin',</p>
+        <p> Git:'http://MyGit',</p>
+        <p> ]</p>
+        <p> },</p>
+        <p> Formacao:[</p>
+        <p> Curso1='void',</p>
+        <p> Curso2='void'</p>
+        <p> ]</p>
+        <p> ,</p>
+        <p> SOFT_SKILL:{</p>
+        <p> FORTES:{lang1='',lang2='',lang3=''}</p>
+        <p> ,CONHECEDOR:{lang1='',lang2='',lang3=''}</p>
+        <p> }</p>
+        <p> EXPERIÊNCIA:{</p>
+        <p> Text:''</p>
+        <p> }</p>
+
+        <p> };</p>
+        </p>
+        <h4>
+
+            <p>//Estanciando um novo objeto da classe curriculo </p>
+            <h1>const Igor_da_Silva_Barbosa = Object.create(currículo); </h1>
+            <p>
+            <h4>
+                const{CONTATO} = Igor_da_Silva_Barbosa;//desestruturando o Ojeto criado
+            </h4>
+            <ul>
+                <li>CONTATO.WP = :71992159737;</li>
+                <li> CONTATO.Git =<a href="https://github.com/igorbr0" target="_blank"> CONTATO.Git;</a></li>
+                <li> CONTATO.Linkedin=<a href="https://www.linkedin.com/in/igor-da-silva-barbosa-6b456b44/"
+                        target="_blank"> CONTATO.Linkedin;</a>
+                </li>
+            </ul>
+            <p>//desestruturando o objeto criado para pegar as propriedade E6S</p>
+
+            <h4>
+                const{FORMAÇAO} = Igor_da_Silva_Barbosa; 
+            </h4>
+            <ul>
+                <li>FORMAÇAO[0]=Técnico em automacão indutrial;</li>
+                <li>FORMAÇAO[1]= Cursando ADS;</li>
+            </ul>
+            <h4>
+
+                const {SOFT_SKILL} = Igor_da_Silva_Barbosa;
+            </h4>
+            <ul>
+                <li>SOFT_SKILL.FORTES</li>//Retornando em json
+                <ul>
+                    <li>FORTES.lang1 = 'NODE.JS'</li>
+                    <li>FORTES.lang2 = 'MYSQL'</li>
+                </ul>
+                <li>SOFT_SKILL.CONHECEDOR:</li>
+                <ul>
+                    <li>CONHECEDOR.lang1 = 'CLP'</li>
+                    <li>CONHECEDOR.lang2 = 'PHP'</li>
+
+                </ul>
+
+            </ul>
+
+
+            <h4>
+                const {EXPERIÊNCIA} = Igor_da_Silva_Barbosa;
+            </h4>
+
+            <ul>
+                <li>
+                    <p> EXPERIÊNCIA.Text = 'Desenvolvedor de sistema supervisorio em VBS.</p>
+                </li>
+                <li>
+                    <p>Técnico em automacao industrial, programação de CLP/Robos/Controladores...</p>
+                </li>
+                <li>
+                    <p>Hobby desenvolvimento de projetos em NODE.JS/PHP/Pyhon/C++/C/Mysql... ';</p>
+                </li>
+            </ul>
+
+
+
+</body>
+
+
+
+
+</html>
